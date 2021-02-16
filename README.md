@@ -16,8 +16,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 {Add your stuff here}
 
 ## Team Members
-
-- Person 1: one sentence about you!
+- Kamryn: I'm a third year math & psych major!
 - Person 2: one sentence about you!
 - Person 3: one sentence about you!
 
