@@ -18,7 +18,7 @@ The specific data provided could be used to better map trends in the development
 ## Team Members
 - Kamryn: I'm a third year math & psych major!
 - Santi: I'm trying to specialize in Economics and some IT.
-- Person 3: one sentence about you!
+- Haolun: I'm first year wanting to go into Computer Science.
 
 ## References
 
