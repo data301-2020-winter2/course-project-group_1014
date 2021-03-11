@@ -4,8 +4,8 @@ import pandas as pd
 def load_and_process(df):
 
     # Method Chain 1 (Load data and deal with missing data)
-
-    df1 = (df.rename(columns={"Jitter(Abs)": "Jitter_ms"})
+    
+    df1 = (pd.read_excel(df).rename(columns={"Jitter(Abs)": "Jitter_ms"})
            .loc[lambda x: x['subject#']>2]
            .sort_values("subject#", ascending=True)
            .reset_index(drop=True)
@@ -13,7 +13,7 @@ def load_and_process(df):
            
       )
 
-    # Method Chain 2 (Create new columns, drop others, and do    processing)
+    # Method Chain 2 (Create new columns, drop others, and do processing)
 
     df2 = (
           df1.drop(columns=['Shimmer:APQ3','Shimmer:APQ5','Shimmer:APQ11','Shimmer:DDA','Jitter:RAP','Jitter:PPQ5','Jitter:DDP'])
