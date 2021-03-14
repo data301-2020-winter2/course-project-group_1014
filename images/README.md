@@ -1,1 +1,1 @@
-This is the place where images are stored
+*This is the place where images are stored*
