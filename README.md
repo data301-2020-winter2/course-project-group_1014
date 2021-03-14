@@ -3,6 +3,7 @@
 
 - Your title can change over time.
 
+
 ## Milestones
 
 Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html).
@@ -21,7 +22,7 @@ The specific data provided could be used to better map trends in the development
 - Haolun: I'm first year wanting to go into Computer Science.
 
 ## References
-
+[Our Project Github Link](https://github.com/data301-2020-winter2/course-project-group_1014)
 A Tsanas, MA Little, PE McSharry, LO Ramig (2009)
 'Accurate telemonitoring of Parkinson’s disease progression by non-invasive speech tests',
 IEEE Transactions on Biomedical Engineering (to appear).
