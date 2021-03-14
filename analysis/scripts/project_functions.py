@@ -6,7 +6,6 @@ def load_and_process(df):
     # Method Chain 1 (Load data and deal with missing data)
     
     df1 = (pd.read_excel(df).rename(columns={"Jitter(Abs)": "Jitter_ms"})
-           .loc[lambda x: x['subject#']>2]
            .sort_values("subject#", ascending=True)
            .reset_index(drop=True)
            #.loc[:, ["subject#", "Jitter_ms","age"]]
