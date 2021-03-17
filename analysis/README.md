@@ -4,7 +4,7 @@
 
 *Santi, Leo & Kamryn's separate analysis folders contained here*
 
-# Milestone 2 analysis
+## Milestone 2 analysis
 Our project relies upon finding correlation and possible errors in a data set that contains information about various patients suffering from parkinsons; all of different ages, sex and development. Gathered through remote electronics that take input through their breath, it was to be used in assistance of hospitals and university researches to find additional pieces of data correlation and see what else can be learnt about the elderly's development of the disease.
 
 Our group project revolves around cleaning the data and seeing what correlations or information can be learnt from all this raw input, and see if anything can be mapped. Between the three of us performing different EDA's with different columns of data pitted against each others, we were able to surmize a fair bit of information.
