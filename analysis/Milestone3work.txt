@@ -1,0 +1,43 @@
+Analysis:
+
+Our project relies upon finding correlation between information in a data set about various patients suffering from Parkinson’s, all of different ages, sex and development. This data is gathered through remote electronics that take input through their breath, which was to be used in assistance of hospitals and universities’ research to find additional pieces of data correlation and see what else can be learnt about the development of the disease through speech impediments.
+
+Our group project revolves around cleaning the data and seeing what correlations or information can be learnt from all this raw input and see if anything can be mapped. Between the three of us performing different EDAs with different columns of data pitted against each other’s, we were able to surmise a fair bit of information.
+
+The data itself is quite large, and some columns contain useful details that directly contributed to other columns, but overall detract from the bigger picture. It was important to reduce the load and focus on the areas of data that had the most relevant information regarding the trends we were searching for. As such, much of our exploration focused on relationships between age, sex, UPDRS and jitter variances.
+
+Some clear upward trends and correlations such as jitter and age were mapped, revealing more about the viability of these modular voice recordings as a way to predict voice degeneration from Parkinson’s, which is found in around 40-80% of patients. Looking further at our questions, we were able to find much more defining conclusions about the data.
+
+
+
+Research Questions:
+
+Which age suffers from the highest jitter percentage?
+
+Looking at the age ranges from 36 to 85 of the subjects, one can observe a high number of cases in those just slightly below 50 years and mid 70's. This was determined by plotting a joint plot of Jitter(%) by age. The Jitter(%) is commonly between 0.00 and 0.02 with outliers, in the highest suffering age range, as high as 0.10. This finding is interesting as it shows that higher Jitter(%) is not as prevalent for the older subjects. This is a good start that shows the age group where these symptoms tend to peak.
+
+
+How does age correlate with motor UPDRS?
+
+Motor UPDRS does not show as much definite variation between age groups but does show an increasing average as age increases. We analyzed this by potting a joint plot between age and motor UPDRS. Within each age group the motor UPDRS score seems to vary quite a bit.
+
+
+Motor UPDRS vs total UPDRS
+
+The motor and total UPDRS have a direct positive correlation as expected, showing increasing upward trends over time as the Parkinson’s develops, thankfully showing little in the way of anomalies in the figures, with just one column being particularly lower than expected in visualizations. This further corroborates that the data and gathering methods work well, as was intended, and solidifies their use while answering our doubts on the matter.
+
+
+Through analysis of voice recordings of jitter, shimmer, and motor, can we reliably map the worsening of the disease in individuals?
+
+Overall, after passing through the data, our doubts of accuracy and legitimacy surrounding the recording method of remote breath analysis were put to rest. The data is largely accurate and helpful in further expanding the scientific community's understanding of the disease via increased quantities of data with little human input and supervision. Few anomalies were detected and easily sorted through, and better correlations between age and development of the disease could be established. Due to roughly 40-80% of individuals suffering Parkinson’s’ disease developing speech impediments, being able to detect it’s growth can aid them significantly in preventative and assisting measures. This is on a short amount of insight however, as a lot of the data can be explored much more in depth, but we stuck to the important parameters to get a better overall picture.
+
+
+Is age correlated with NHR and HNR?
+
+Plotting an lmplot of NHR vs age showed a consistent average across ages with a spike between 60 and mid 70’s. The majority NHR stayed roughly within 0.0 and 0.2 showing no significant increase with age. Our comparison of HNR to age showed a very slight linear decrease in HNR as age progressed.
+
+
+Does sex play a role in jitter% and shimmer?
+
+By plotting an lmplot we see that Jitter% recording in males (0) is concentrated between ages just below 50 up to just below 80 with the highest recording reaching roughly 0.02. In females (1), however, the data is much more spread out with recordings scattered within our entire age range. One recording even reaches roughly 0.04, which is our highest recording. Although female recordings seem less condensed and contain more outliers, the averages between the two sexes appear to be relatively similar around/below .005.
+Through another lmplot of Shimmer score by age & sex we found that in males (0) there is a slight average increase in Shimmer as age progresses, while in females (1) the average had no increase across age. Similar as to Jitter%, males appeared to have more concentrated recordings between 50 and 80 years old with the highest recording being roughly 0.1 with a subject around 70 years old. Also, similarly to Jitter% the females recordings were much more spread out with a high of around 0.2.
