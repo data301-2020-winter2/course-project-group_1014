@@ -20,7 +20,8 @@ The specific data provided could be used to better map trends in the development
 - Kamryn: I'm a third year math & psych major!
 - Santi: I'm trying to specialize in Economics and some IT.
 - Haolun: I'm first year wanting to go into Computer Science.
-
+## Links to online dashboards
+- https://us-west-2b.online.tableau.com/#/site/data301/workbooks/346739/views
 ## References
 [Our Project Github Link](https://github.com/data301-2020-winter2/course-project-group_1014)
 A Tsanas, MA Little, PE McSharry, LO Ramig (2009)
