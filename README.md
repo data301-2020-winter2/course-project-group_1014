@@ -28,3 +28,6 @@ The specific data provided could be used to better map trends in the development
 A Tsanas, MA Little, PE McSharry, LO Ramig (2009)
 'Accurate telemonitoring of Parkinson’s disease progression by non-invasive speech tests',
 IEEE Transactions on Biomedical Engineering (to appear).
+
+## Final Presentation
+[Group 1014 presentation](https://youtu.be/_vdYYNnWT7Q)
